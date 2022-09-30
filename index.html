@@ -1,0 +1,281 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="PeriodicTable_V2.css">
+    <link rel="stylesheet" href="sketchy.css">
+    <script src="PeriodicTable_V2.JS"></script>
+    <script src="inc_opc.JS"></script>
+    <script src="dec_opc.JS"></script>
+    <script src="inc_opcG.JS"></script>
+    <script src="dec_opcG.JS"></script>
+    <script src="inc_opcP.JS"></script>
+    <script src="dec_opcP.JS"></script>
+    <script src="jQuery.JS"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>
+        PeriodicTable_V2
+    </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <table align="center" class="padding_tbl">
+        <tbody>
+            <tr>
+                <td><button class="blank"></button></td>
+                <td><button class="g_css gr_1" onmouseover="changeOpacityG('G1')" onmouseout="decreaseOpacityG('G1')">G1</button></td>
+                <td><button class="g_css gr_2" onmouseover="changeOpacityG('G2')" onmouseout="decreaseOpacityG('G2')">G2</button></td>
+                <td><button class="g_css gr_3" onmouseover="changeOpacityG('G3')" onmouseout="decreaseOpacityG('G3')">G3</button></td>
+                <td><button class="g_css gr_4" onmouseover="changeOpacityG('G4')" onmouseout="decreaseOpacityG('G4')">G4</button></td>
+                <td><button class="g_css gr_5" onmouseover="changeOpacityG('G5')" onmouseout="decreaseOpacityG('G5')">G5</button></td>
+                <td><button class="g_css gr_6" onmouseover="changeOpacityG('G6')" onmouseout="decreaseOpacityG('G6')">G6</button></td>
+                <td><button class="g_css gr_7" onmouseover="changeOpacityG('G7')" onmouseout="decreaseOpacityG('G7')">G7</button></td>
+                <td><button class="g_css gr_8" onmouseover="changeOpacityG('G8')" onmouseout="decreaseOpacityG('G8')">G8</button></td>
+                <td><button class="g_css gr_9" onmouseover="changeOpacityG('G9')" onmouseout="decreaseOpacityG('G9')">G9</button></td>
+                <td><button class="g_css gr_10" onmouseover="changeOpacityG('G10')" onmouseout="decreaseOpacityG('G10')">G10</button></td>
+                <td><button class="g_css gr_11" onmouseover="changeOpacityG('G11')" onmouseout="decreaseOpacityG('G11')">G11</button></td>
+                <td><button class="g_css gr_12" onmouseover="changeOpacityG('G12')" onmouseout="decreaseOpacityG('G12')">G12</button></td>
+                <td><button class="g_css gr_13" onmouseover="changeOpacityG('G13')" onmouseout="decreaseOpacityG('G13')">G13</button></td>
+                <td><button class="g_css gr_14" onmouseover="changeOpacityG('G14')" onmouseout="decreaseOpacityG('G14')">G14</button></td>
+                <td><button class="g_css gr_15" onmouseover="changeOpacityG('G15')" onmouseout="decreaseOpacityG('G15')">G15</button></td>
+                <td><button class="g_css gr_16" onmouseover="changeOpacityG('G16')" onmouseout="decreaseOpacityG('G16')">G16</button></td>
+                <td><button class="g_css gr_17" onmouseover="changeOpacityG('G17')" onmouseout="decreaseOpacityG('G17')">G17</button></td>
+                <td><button class="g_css gr_18" onmouseover="changeOpacityG('G18')" onmouseout="decreaseOpacityG('G18')">G18</button></td>
+
+
+            </tr>
+            <tr>
+                <td><button class="p_css pt_1" onmouseover="changeOpacityP('P1')" onmouseout="decreaseOpacityP('P1')">P1</button></td>
+                <td><button onclick="showAlert()" class="rg_ef sp_ef  gr_1 onm pt_1" id="H" onclick="window.location.href='w3docs.com';">H</button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_1" id="He" onclick="displayInfo('2')">He</button></td>
+            </tr>
+            <tr>
+                <td><button class="p_css pt_2" onmouseover="changeOpacityP('P2')" onmouseout="decreaseOpacityP('P2')">P2</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_2" id="Li" onclick="displayInfo('3')">Li</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_2" id="Be" onclick="displayInfo('4')">Be</button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="rg_ef sp_ef gr_13 mt pt_2" id="B" onclick="displayInfo('5')">B</button></td>
+                <td><button class="rg_ef sp_ef gr_14 onm pt_2" id="C" onclick="displayInfo('6')">C</button></td>
+                <td><button class="rg_ef sp_ef gr_15 onm pt_2" id="N" onclick="displayInfo('7')">N</button></td>
+                <td><button class="rg_ef sp_ef gr_16 onm pt_2" id="O" onclick="displayInfo('8')">O</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_2" id="F" onclick="displayInfo('9')">F</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_2" id="Ne" onclick="displayInfo('10')">Ne</button></td>
+            </tr>
+            <tr>
+                <td><button class="p_css pt_3" onmouseover="changeOpacityP('P3')" onmouseout="decreaseOpacityP('P3')">P3</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_3" id="Na" onclick="displayInfo('11')">Na</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_3" id="Mg" onclick="displayInfo('12')">Mg</button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="rg_ef sp_ef gr_13 ptm pt_3" id="Al" onclick="displayInfo('13')">Al</button></td>
+                <td><button class="rg_ef sp_ef gr_14 mt pt_3" id="Si" onclick="displayInfo('14')">Si</button></td>
+                <td><button class="rg_ef sp_ef gr_15 onm pt_3" id="P" onclick="displayInfo('15')">P</button></td>
+                <td><button class="rg_ef sp_ef gr_16 onm pt_3" id="S" onclick="displayInfo('16')">S</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_3" id="Cl" onclick="displayInfo('17')">Cl</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_3" id="Ar" onclick="displayInfo('18')">Ar</button></td>
+            </tr>
+            <tr>
+                <td><button class="p_css pt_4" onmouseover="changeOpacityP('P4')" onmouseout="decreaseOpacityP('P4')">P4</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_4" id="K" onclick="displayInfo('19')">K</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_4" id="Ca" onclick="displayInfo('20')">Ca</button></td>
+                <td><button class="rg_ef sp_ef gr_3 tm pt_4" id="Sc" onclick="displayInfo('21')">Sc</button></td>
+                <td><button class="rg_ef sp_ef gr_4 tm pt_4" id="Ti" onclick="displayInfo('22')">Ti</button></td>
+                <td><button class="rg_ef sp_ef gr_5 tm pt_4" id="V" onclick="displayInfo('23')">V</button></td>
+                <td><button class="rg_ef sp_ef gr_6 tm pt_4" id="Cr" onclick="displayInfo('24')">Cr</button></td>
+                <td><button class="rg_ef sp_ef gr_7 tm pt_4" id="Mn" onclick="displayInfo('25')">Mn</button></td>
+                <td><button class="rg_ef sp_ef gr_8 tm pt_4" id="Fe" onclick="displayInfo('26')">Fe</button></td>
+                <td><button class="rg_ef sp_ef gr_9 tm pt_4" id="Co" onclick="displayInfo('27')">Co</button></td>
+                <td><button class="rg_ef sp_ef gr_10 tm pt_4" id="Ni" onclick="displayInfo('28')">Ni</button></td>
+                <td><button class="rg_ef sp_ef gr_11 tm pt_4" id="Cu" onclick="displayInfo('29')">Cu</button></td>
+                <td><button class="rg_ef sp_ef gr_12 tm pt_4" id="Zn" onclick="displayInfo('30')">Zn</button></td>
+                <td><button class="rg_ef sp_ef gr_13 ptm pt_4" id="Ga" onclick="displayInfo('31')">Ga</button></td>
+                <td><button class="rg_ef sp_ef gr_14 mt pt_4" id="Ge" onclick="displayInfo('32')">Ge</button></td>
+                <td><button class="rg_ef sp_ef gr_15 mt pt_4" id="As" onclick="displayInfo('33')">As</button></td>
+                <td><button class="rg_ef sp_ef gr_16 onm pt_4" id="Se" onclick="displayInfo('34')">Se</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_4" id="Br" onclick="displayInfo('35')">Br</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_4" id="Kr" onclick="displayInfo('36')">Kr</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="p_css pt_5" onmouseover="changeOpacityP('P5')" onmouseout="decreaseOpacityP('P5')">P5</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_5" id="Rb" onclick="displayInfo('37')">Rb</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_5" id="Sr" onclick="displayInfo('38')">Sr</button></td>
+                <td><button class="rg_ef sp_ef gr_3 tm pt_5" id="Y" onclick="displayInfo('39')">Y</button></td>
+                <td><button class="rg_ef sp_ef gr_4 tm pt_5" id="Zr" onclick="displayInfo('40')">Zr</button></td>
+                <td><button class="rg_ef sp_ef gr_5 tm pt_5" id="Nb" onclick="displayInfo('41')">Nb</button></td>
+                <td><button class="rg_ef sp_ef gr_6 tm pt_5" id="Mo" onclick="displayInfo('42')">Mo</button></td>
+                <td><button class="rg_ef sp_ef gr_7 tm pt_5" id="Tc" onclick="displayInfo('43')">Tc</button></td>
+                <td><button class="rg_ef sp_ef gr_8 tm pt_5" id="Ru" onclick="displayInfo('44')">Ru</button></td>
+                <td><button class="rg_ef sp_ef gr_9 tm pt_5" id="Rh" onclick="displayInfo('45')">Rh</button></td>
+                <td><button class="rg_ef sp_ef gr_10 tm pt_5" id="Pd" onclick="displayInfo('46')">Pd</button></td>
+                <td><button class="rg_ef sp_ef gr_11 tm pt_5" id="Ag" onclick="displayInfo('47')">Ag</button></td>
+                <td><button class="rg_ef sp_ef gr_12 tm pt_5" id="Cd" onclick="displayInfo('48')">Cd</button></td>
+                <td><button class="rg_ef sp_ef gr_13 ptm pt_5" id="In" onclick="displayInfo('49')">In</button></td>
+                <td><button class="rg_ef sp_ef gr_14 ptm pt_5" id="Sn" onclick="displayInfo('50')">Sn</button></td>
+                <td><button class="rg_ef sp_ef gr_15 mt pt_5" id="Sb" onclick="displayInfo('51')">Sb</button></td>
+                <td><button class="rg_ef sp_ef gr_16 mt pt_5" id="Te" onclick="displayInfo('52')">Te</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_5" id="I" onclick="displayInfo('53')">I</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_5" id="Xe" onclick="displayInfo('54')">Xe</button></td>
+            </tr>
+            <tr>
+                <td><button class="p_css pt_6" onmouseover="changeOpacityP('P6')" onmouseout="decreaseOpacityP('P6')">P6</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_6" id="Cs" onclick="displayInfo('55')">Cs</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_6" id="Ba" onclick="displayInfo('56')">Ba</button></td>
+                <td><button class="lpc" onmouseover="changeOpacity('Lanthanides')" onmouseout="decreaseOpacity('Lanthanides')" id="lpc"></button></td>
+                <td><button class="rg_ef sp_ef gr_4 tm pt_6" id="Hf" onclick="displayInfo('57')">Hf</button></td>
+                <td><button class="rg_ef sp_ef gr_5 tm pt_6" id="Ta" onclick="displayInfo('73')">Ta</button></td>
+                <td><button class="rg_ef sp_ef gr_6 tm pt_6" id="W" onclick="displayInfo('74')">W</button></td>
+                <td><button class="rg_ef sp_ef gr_7 tm pt_6" id="Re" onclick="displayInfo('75')">Re</button></td>
+                <td><button class="rg_ef sp_ef gr_8 tm pt_6" id="Os" onclick="displayInfo('76')">Os</button></td>
+                <td><button class="rg_ef sp_ef gr_9 tm pt_6" id="Ir" onclick="displayInfo('77')">Ir</button></td>
+                <td><button class="rg_ef sp_ef gr_10 tm pt_6" id="Pt" onclick="displayInfo('78')">Pt</button></td>
+                <td><button class="rg_ef sp_ef gr_11 tm pt_6" id="Au" onclick="displayInfo('79')">Au</button></td>
+                <td><button class="rg_ef sp_ef gr_12 tm pt_6" id="Hg" onclick="displayInfo('80')">Hg</button></td>
+                <td><button class="rg_ef sp_ef gr_13 ptm pt_6" id="Tl" onclick="displayInfo('81')">Tl</button></td>
+                <td><button class="rg_ef sp_ef gr_14 ptm pt_6" id="Pb" onclick="displayInfo('82')">Pb</button></td>
+                <td><button class="rg_ef sp_ef gr_15 ptm pt_6" id="Bi" onclick="displayInfo('83')">Bi</button></td>
+                <td><button class="rg_ef sp_ef gr_16 mt pt_6" id="Po" onclick="displayInfo('84')">Po</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_6" id="At" onclick="displayInfo('85')">At</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_6" id="Rn" onclick="displayInfo('86')">Rn</button></td>
+            </tr>
+            <tr>
+                <td><button class="p_css pt_7" onmouseover="changeOpacityP('P7')" onmouseout="decreaseOpacityP('P7')">P7</button></td>
+                <td><button class="rg_ef sp_ef gr_1 a pt_7" id="Fr" onclick="displayInfo('87')">Fr</button></td>
+                <td><button class="rg_ef sp_ef gr_2 ak pt_7" id="Ra" onclick="displayInfo('88')">Ra</button></td>
+                <td><button class="atpc" onmouseover="changeOpacity('Actinides')" onmouseout="decreaseOpacity('Actinides')" id="atpc"></button></td>
+                <td><button class="rg_ef sp_ef gr_4 tm pt_7" id="Rf" onclick="displayInfo('104')">Rf</button></td>
+                <td><button class="rg_ef sp_ef gr_5 tm pt_7" id="Db" onclick="displayInfo('105')">Db</button></td>
+                <td><button class="rg_ef sp_ef gr_6 tm pt_7" id="Sg" onclick="displayInfo('106')">Sg</button></td>
+                <td><button class="rg_ef sp_ef gr_7 tm pt_7" id="Bh" onclick="displayInfo('107')">Bh</button></td>
+                <td><button class="rg_ef sp_ef gr_8 tm pt_7" id="Hs" onclick="displayInfo('108')">Hs</button></td>
+                <td><button class="rg_ef sp_ef gr_9 tm pt_7" id="Mt" onclick="displayInfo('109')">Mt</button></td>
+                <td><button class="rg_ef sp_ef gr_10 tm pt_7" id="Ds" onclick="displayInfo('110')">Ds</button></td>
+                <td><button class="rg_ef sp_ef gr_11 tm pt_7" id="Rg" onclick="displayInfo('111')">Rg</button></td>
+                <td><button class="rg_ef sp_ef gr_12 tm pt_7" id="Cn" onclick="displayInfo('112')">Cn</button></td>
+                <td><button class="rg_ef sp_ef gr_13 ptm pt_7" id="Nh" onclick="displayInfo('113')">Nh</button></td>
+                <td><button class="rg_ef sp_ef gr_14 ptm pt_7" id="Fl" onclick="displayInfo('114')">Fl</button></td>
+                <td><button class="rg_ef sp_ef gr_15 ptm t_7" id="Mc" onclick="displayInfo('115')">Mc</button></td>
+                <td><button class="rg_ef sp_ef gr_16 ptm pt_7" id="Lv" onclick="displayInfo('116')">Lv</button></td>
+                <td><button class="rg_ef sp_ef gr_17 hg pt_7" id="Ts" onclick="displayInfo('117')">Ts</button></td>
+                <td><button class="rg_ef sp_ef gr_18 ng pt_7" id="Og" onclick="displayInfo('118')">Og</button></td>
+            </tr>
+            <tr>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="La" onclick="displayInfo('')">La</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Ce" onclick="displayInfo('')">Ce</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Pr" onclick="displayInfo('')">Pr</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Nd" onclick="displayInfo('')">Nd</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Pm" onclick="displayInfo('')">Pm</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Sm" onclick="displayInfo('')">Sm</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Eu" onclick="displayInfo('')">Eu</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Gd" onclick="displayInfo('')">Gd</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Ty" onclick="displayInfo('')">Ty</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Dy" onclick="displayInfo('')">Dy</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Ho" onclick="displayInfo('')">Ho</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Er" onclick="displayInfo('')">Er</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Tm" onclick="displayInfo('')">Tm</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Yb" onclick="displayInfo('')">Yb</button></td>
+                <td><button class="rg_ef sp_ef l pt_6" id="Lu" onclick="displayInfo('')">Lu</button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+            </tr>
+            <tr>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Ac" onclick="displayInfo('')">Ac</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Th" onclick="displayInfo('')">Th</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Pa" onclick="displayInfo('')">Pa</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="U" onclick="displayInfo('')">U</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Np" onclick="displayInfo('')">Np</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Pu" onclick="displayInfo('')">Pu</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Am" onclick="displayInfo('')">Am</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Cm" onclick="displayInfo('')">Cm</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Bk" onclick="displayInfo('')">Bk</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Cf" onclick="displayInfo('')">Cf</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Es" onclick="displayInfo('')">Es</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Fm" onclick="displayInfo('')">Fm</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Ma" onclick="displayInfo('')">Ma</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="No" onclick="displayInfo('')">No</button></td>
+                <td><button class="rg_ef sp_ef at pt_7" id="Lr" onclick="displayInfo('')">Lr</button></td>
+                <td><button class="blank"></button></td>
+                <td><button class="blank"></button></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="padTbl" align="center">
+        <tbody>
+            <tr>
+                <td><button id="ac" class="ac" onclick="changeOpacityClick('Alkalis')" onmouseover="changeOpacity('Alkalis')" onmouseout="decreaseOpacity('Alkalis')">Akalis</button>
+                </td>
+                <td><button id="akc" class="akc" onmouseover="changeOpacity('AlkalineEarthMetals')" onmouseout="decreaseOpacity('AlkalineEarthMetals')">Akaline Earth Metals</button></td>
+                <td><button id="tmc" class="tmc" onmouseover="changeOpacity('TransitioningMetals')" onmouseout="decreaseOpacity('TransitioningMetals')">Transitioning Metals</button></td>
+                <td><button id="ptmc" class="ptmc" onmouseover="changeOpacity('PostTransitionMetals')" onmouseout="decreaseOpacity('PostTransitionMetals')">Post-trasnsition Metals</button></td>
+                <td><button id="mtc" class="mtc" onmouseover="changeOpacity('Metalloids')" onmouseout="decreaseOpacity('Metalloids')">Metalloids</button></td>
+                <td><button id="onmc" class="onmc" onmouseover="changeOpacity('OtherNonMetals')" onmouseout="decreaseOpacity('OtherNonMetals')">Other Non-Metals</button></td>
+                <td><button id="hgc" class="hgc" onmouseover="changeOpacity('Halogens')" onmouseout="decreaseOpacity('Halogens')">Halogens</button></td>
+                <td><button id="ngc" class="ngc" onmouseover="changeOpacity('NobleGases')" onmouseout="decreaseOpacity('NobleGases')">Noble Gases</button></td>
+                <td><button id="lc" class="lc" onmouseover="changeOpacity('Lanthanides')" onmouseout="decreaseOpacity('Lanthanides')">Lanthanides</button></td>
+                <td><button id="atc" class="atc" onmouseover="changeOpacity('Actinides')" onmouseout="decreaseOpacity('Actinides')">Actinides</button></td>
+
+            </tr>
+        </tbody>
+    </table>
+    <!-- <div class="boxed">
+        <p align="justify">
+            <h5>Click on any element to display text</h5>
+        </p>
+    </div> 
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+        </div>
+        <rect width="50%" height="50%" fill="#868e96"></rect>
+        <text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text>
+    </div>
+     <footer class = "footerCss">
+            <div class="form-check form-switch">
+            <label>DarkMode</label>
+            <input class="btn btn-outline-dark form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="darkMode()">
+            </div>
+        </footer> -->
+
+
+</body>
+
+</html>

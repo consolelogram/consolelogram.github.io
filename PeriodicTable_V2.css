@@ -1,0 +1,409 @@
+.rg_ef {
+    width: 50;
+    padding: 10px;
+}
+
+.sp_ef:hover {
+    width: 50;
+    border: 2px solid #070707;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #008080;
+    color: black;
+    border-radius: 10px;
+}
+
+
+/*.gr_1
+{
+  background-color: #42e411;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_2
+{
+  background-color: #dc14aa;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_13
+{
+  background-color: #008B8B;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: white;
+}
+.gr_14
+{
+  background-color: #FFF8DC;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_15
+{
+  background-color: #6495ED;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_16
+{
+  background-color: #DC143C;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_17
+{
+  background-color: #D2691E;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+.gr_18{
+	background-color: #00FFFF;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	color: black;
+}*/
+
+.blank {
+    border: 2px solid #ffffff;
+    width: 1247px;
+    width: 50;
+    padding: 23px;
+    opacity: 0.0;
+}
+
+.atpc {
+    width: 1247px;
+    width: 50;
+    padding: 23px;
+    background-color: #D8BFD8;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+    opacity: 0.6;
+}
+
+.lpc {
+    width: 1247px;
+    width: 50;
+    padding: 23px;
+    background-color: #FFFF00;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+    opacity: 0.6;
+}
+
+.blank_2 {
+    border: 2px solid #000000;
+}
+
+.onm
+/*other non metals*/
+
+{
+    background-color: MediumSeaGreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.onmc {
+    background-color: MediumSeaGreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ng
+/*noble gasses*/
+
+{
+    background-color: #556B2F;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ngc {
+    background-color: #556B2F;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.hg
+/*halogen*/
+
+{
+    background-color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.hgc {
+    background-color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ak
+/*alkaline earth metals*/
+
+{
+    background-color: #F08080;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.akc {
+    background-color: #F08080;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.a
+/*alkalis*/
+
+{
+    background-color: #ADD8E6;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ac {
+    background-color: #ADD8E6;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ptm
+/*PostTransitionMetals*/
+
+{
+    background-color: #9370DB;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.ptmc {
+    background-color: #9370DB;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.mt
+/*Metalloid*/
+
+{
+    background-color: #FFDEAD;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.mtc {
+    background-color: #FFDEAD;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.tm
+/*transition metal*/
+
+{
+    background-color: #FF6347;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.tmc {
+    background-color: #FF6347;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.l {
+    background-color: #FFFF00;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.lc {
+    background-color: #FFFF00;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.at {
+    background-color: #D8BFD8;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.atc {
+    background-color: #D8BFD8;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+
+/* .span
+{color:red; 
+font-size: 20px;
+background-color: #ffcaca;
+background-image:url(/Content/x.png);
+background-repeat:no-repeat;
+background-position:2px;
+border: 1px solid red;
+position:relative;
+} */
+
+
+/* .btn_opc{
+	opacity: 0.8;
+	transition: 0.1s;
+}
+.btn_opc:hover{
+	opacity: 1.0;
+} */
+
+.increase_opc {
+    opacity: 1.0;
+}
+
+.blur_effect {
+    opacity: 0.4;
+}
+
+.blur_effectG {
+    opacity: 0.4;
+}
+
+.blur_effectP {
+    opacity: 0.4;
+}
+
+.g_css {
+    border: 2px solid #ffffff;
+    width: 49px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.p_css {
+    border: 2px solid #ffffff;
+    width: 49px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.color_changeG {
+    background-color: #0f29bda1;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.color_changeP {
+    background-color: #90EE90;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    color: black;
+}
+
+.boxed {
+    border: 1px solid green;
+}
